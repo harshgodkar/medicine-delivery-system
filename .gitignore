@@ -1,0 +1,19 @@
+# .gitignore file for NetMeds project
+# Ignore node modules
+node_modules/
+package-lock.json
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore logs
+logs/
+
+# Ignore node modules of sub-projects
+backend/node_modules/
+frontend/node_modules/

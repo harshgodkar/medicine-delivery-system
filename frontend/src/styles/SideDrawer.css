@@ -1,0 +1,130 @@
+.sidedrawer {
+  width: 70%;
+  background: #fff;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidedrawer.show {
+  transform: translateX(0);
+}
+
+.sidedrawer__links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.sidedrawer__links > li {
+  display: flex;
+  align-items: center;
+}
+
+.sidedrawer__links > li > a:hover {
+  background: #333;
+  color: #f4f4f4;
+}
+
+.sidedrawer__links > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  padding: 1rem;
+  text-decoration: none;
+  color: #171717;
+  font-size: 1.6rem;
+}
+
+.sidedrawer__links > li > a > span {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.sidedrawer__cartbadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #171717;
+  border-radius: 50%;
+  margin-left: 8px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.sidedrawer__links > li > a:hover .sidedrawer__cartbadge {
+  background-color: #fff;
+  color: #171717;
+}
+
+
+/* .dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: inherit;
+}
+.dropdown .dropbtn span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.dropdown:hover .dropbtn{
+  background-color: #333;
+}
+
+.dropdown-content {
+  display: flex;
+  position: fixed;
+  border-radius: 0px 0px 8px 8px;
+  background-color: #171717;
+  text-decoration: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content span {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 12px;
+  display: ;
+  text-align: left;
+}
+
+.dropdown-content span:hover {
+  text-decoration: none;
+  background-color: #171717;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+
+@media (min-width: 960px) {
+  .sidedrawer {
+    display: none;
+  }
+}

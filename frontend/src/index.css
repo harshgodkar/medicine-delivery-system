@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(198, 197, 197);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel {
+  padding: 20px;
+  background-color: rgb(11, 206, 11);
+}
+
+.carousel-inner {
+
+  height: 500px !important;
+
+}
+/*
+ .gradient-custom {
+  
+  background: #cd9cf2;
+
+  
+  background: -webkit-linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+
+  background: linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+} */
